@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" type="text/css" href="css/places.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet">
+<title><%= page %></title>
+</head>
+<body>
+    <section id="box">
+        <a href="http://localhost:3000"><img src="pictures/logo.png" alt=""></a>
+        <span id="tit">Places</span>
+        <br>
+        <span id="from">Location</span>
+        <input type="text" id="ifrom">
+        <button id="fromcurr" class="curr"><i class='fas fa-crosshairs'></i></button>
+        <span id="q">Query</span>
+        <input type="text" id="query" placeholder="Enter Query">
+        <button id="next">Search</button>
+    </section>
+    <div id="googleMap">
+    </div>
+    <section id="dir">
+        <div id="out"></div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzoA_Q2SjxAD8wjZSZstcHLg_BEnszYhg&libraries=places"></script>
+    <script src="script/places.js"></script>
+</body>
+</html>

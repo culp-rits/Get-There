@@ -1,0 +1,223 @@
+body{
+    background-image: url("/pictures/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+    transition: .2s;
+}
+
+img:hover{
+    height: 50px;
+    width: 50px;
+    transition: .2s;
+}
+
+#box{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 1190px;
+    height: 100px;
+    border-radius:20px;
+    background-color:rgb(255, 255, 255) ;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+    color: rgb(0, 0, 99);
+}
+
+#dir{
+    background-color: white;
+    width: 28.5vw;
+    height: 868px;
+    border-radius: 20px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 99)
+}
+
+#tit{
+    font-size: 35px;
+}
+
+#from{
+    position: absolute;
+    left: 30px;
+    bottom: 27px;
+    font-size: 25px;
+}
+
+#ifrom{
+    position: absolute;
+    bottom: 27px;
+    left: 110px;
+
+}
+
+#to{
+    position: absolute;
+    bottom: 27px;
+    font-size: 25px;
+    right: 635px;
+}
+
+input{
+    width: 380px;
+    border-radius: 10px;
+    background-color: rgb(235, 242, 255);
+    border: none;
+    font-size: 17px;
+    color: rgb(0, 0, 99);
+    height: 29px;
+    padding-left: 10px;
+    transition: .2s;
+}
+
+#ito{
+    position: absolute;
+    bottom: 27px;
+    right: 225px;
+}
+
+#next{
+    border-radius: 10px;
+    height: 33px;
+    position: absolute;
+    right: 29px;
+    bottom: 27px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgb(235, 242, 255);
+    color: rgb(0, 0, 99);
+    border: none;
+    font-weight: 500;
+    transition: .2s;
+}
+
+#next:hover{
+    background-color: rgb(46, 84, 155);
+    transition: .2s;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border-radius: 10px 10px 0px 0px;
+    transition: .2s;
+}
+
+#next:focus{
+    outline: none;
+}
+
+#out{
+    overflow-y: scroll;
+    scrollbar-color: rgb(255, 184, 184);
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    width: 25.5vw;
+    height: 775px;
+    border-radius: 20px;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+.pac-container{
+    background-color: rgb(235, 242, 255);
+    color: rgb(0, 0, 99);
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    transition: .2s;
+    box-shadow: none;
+}
+
+.pac-item{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding-left: 10px;
+    width: 400px;
+    transition: .2s;
+}
+
+.pac-item-query{
+    font-size: 15px;
+}
+
+.pac-item:hover{
+    background-color: rgb(203, 221, 255);
+    transition: .2s;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#googleMap{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 1230px;
+    height: 738px;
+    border-radius:20px;
+}
+
+p{
+    background-color: rgb(235, 242, 255);
+    color: rgb(0, 0, 99);
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 99, 0.61);
+    opacity: 1;
+}
+
+.pac-container:after {
+    background-image: none;
+    height: 0px;
+}
+
+#fromcurr{
+    position: absolute;
+    bottom: 27px;
+    border: none;
+    left: 505px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#tocurr{
+    position: absolute;
+    bottom: 27px;
+    border: none;
+    right: 195px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+i{
+    transition: .2s;
+    font-size: 20px;
+    color:rgb(46, 84, 155);
+}
+
+i:hover{
+    transition: .2s;
+    color: rgb(109, 109, 248);
+}
