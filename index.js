@@ -23,4 +23,3 @@ app.get('/:page', (req, res) => {
     const {page} = req.params;
     res.render('page.ejs',{page});
 });
-
